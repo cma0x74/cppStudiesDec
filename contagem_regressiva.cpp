@@ -15,7 +15,7 @@ int main(){
 
     for(int i=time; i>=0; i--){
         cout<<i<<" segundos restantes\n";
-        std::this_thread::sleep_for(std::chrono::seconds(1));
+        this_thread::sleep_for(chrono::seconds(1));
     }
     cout<<"Contagem regressiva concluída!\n";
 
